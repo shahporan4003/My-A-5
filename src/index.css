@@ -1,5 +1,25 @@
 @import "tailwindcss";
 @plugin "daisyui";
-/* @theme { Unknown at rule @theme
-    --color-PrimaryButton: #0a0f1d;
-} */
+@layer utilities {
+  .brand-gradient {
+    background-image: linear-gradient(
+      to right,
+      #f97316,
+      #ec4899,
+      #8b5cf6
+    );
+  }
+
+  .text-brand-gradient {
+    background-image: linear-gradient(
+      to right,
+      #f97316,
+      #ec4899,
+      #8b5cf6
+    );
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+}

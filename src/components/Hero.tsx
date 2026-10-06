@@ -4,7 +4,7 @@ const Hero = () => {
         ...
         <div>
             <h1 className="text-6xl font-bold mt-24">Build Your Ideal </h1>
-            <h1 className="text-6xl font-bold bg-gradient-to-r from-orange-500 via-pink-500 to-violet-900 bg-clip-text text-5xl font-bold text-transparent ">Development Stack</h1>
+            <h1 className="text-6xl font-bold brand-gradient bg-clip-text text-5xl font-bold text-transparent ">Development Stack</h1>
             <p className="mt-6 whitespace-nowrap text-2xl">Explore frontend, backend, database, and tooling options,<br />
             compare them side by side, and put together the stack that fits your <br />
             next project.
@@ -13,7 +13,7 @@ const Hero = () => {
   <button
     className="
       rounded-lg
-      bg-gradient-to-r from-orange-500 to-pink-500
+      brand-gradient
       px-4 py-3
       font-semibold text-white
       hover:opacity-90
