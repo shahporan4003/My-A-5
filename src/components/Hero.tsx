@@ -1,11 +1,11 @@
 import banner from "../assets/banner-stack.png"
 const Hero = () => {
     return (<section className="container mx-auto flex justify-between">
-        ...
         <div>
             <h1 className="text-6xl font-bold mt-24">Build Your Ideal </h1>
-            <h1 className="text-6xl font-bold brand-gradient bg-clip-text text-5xl font-bold text-transparent ">Development Stack</h1>
-            <p className="mt-6 whitespace-nowrap text-2xl">Explore frontend, backend, database, and tooling options,<br />
+<h1 className="text-brand-gradient text-5xl font-bold">
+  Development Stack
+</h1>            <p className="mt-6 whitespace-nowrap text-2xl">Explore frontend, backend, database, and tooling options,<br />
             compare them side by side, and put together the stack that fits your <br />
             next project.
             </p>
